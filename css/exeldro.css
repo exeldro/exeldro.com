@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.header1{
+	background-image:url("../images/code2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.foto{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titel{
+    color: #FFFFFF;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	letter-spacing: 10px;
+	height:inherit;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.kop{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+.intro{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+
+.h5{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+.kaart{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 150px;
+}
+
+
+.icoon{
+	height: 100px;
+	weight: 100px;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: underline;
+}
+
+.tussen-kop{
+	background-color:#000000;
+	color: #FFFFFF;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+a:link {
+  text-decoration: none;
+	color: black;
+}
+
+a:visited {
+  text-decoration: none;
+	color:black;
+}
+
+a:hover {
+  text-decoration: none;
+	color:black;
+}
+
+a:active {
+  text-decoration: none;
+	color: black;
+}
+
+
+@media screen and (min-width:720px)
+{
+.kop_size
+	{
+  font-size: 10rem;
+  font-weight: 300;
+  line-height: 1.2;
+		
+}
+	
+}
+
+@media screen and (max-width: 720px)
+{
+
+div.kop_size {
+  font-size: 5rem;
+  font-weight: 200;
+  line-height: 1.2;
+}	
+	
+}
